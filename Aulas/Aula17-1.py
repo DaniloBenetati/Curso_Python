@@ -65,3 +65,12 @@ print()
 # exibindo o índice com "enumerate"
 for i, v in enumerate(valores):
     print(f'Na posição \33[1:31m{i}\33[m encontrei o valor \33[1:32m{v}\33[m')
+print()
+
+# criando cópias de listas com [:]
+a = [3, 8, 9, 4]
+b = a[:]  # se não colocar [:] no final não cria uma cópia
+b[2] = 5
+print(f'Lista A: {a}')
+print(f'Lista B: {b}')
+
